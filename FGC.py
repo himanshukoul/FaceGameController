@@ -41,7 +41,7 @@ while True:
                     
                     if idx ==1:  #nose tip
                         nose_2d = (lm.x * image_w,lm.y * image_h)
-                        nose_3d = (lm.x * image_w,lm.y * image_h,lm.z * image_c)
+                        nose_3d = (lm.x * image_w,lm.y * image_h,lm.z)
                         x = int(lm.x * screen_w)   
                         y = int(lm.y * screen_h)        #did screen instead of image as it will go
                                                             # default pos of cursor would go to left where my vid is displaying
